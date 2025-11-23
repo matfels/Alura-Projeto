@@ -1,0 +1,232 @@
+{
+  "titulo_guia": "Guia Interativo: Encontrando Sua Linguagem de Programação Ideal",
+  "descricao": "Um sistema de perguntas e respostas para direcionar o usuário à melhor linguagem com base em seus objetivos.",
+  "passos": [
+    {
+      "id": "ETAPA_1_OBJETIVO",
+      "pergunta": "Qual é o seu principal objetivo de programação?",
+      "opcoes": [
+        {
+          "letra": "A",
+          "texto": "Quero construir websites (Front-end e/ou Back-end).",
+          "proximo_passo": "ETAPA_2_WEB"
+        },
+        {
+          "letra": "B",
+          "texto": "Quero criar aplicativos para celulares (iOS e/ou Android).",
+          "proximo_passo": "ETAPA_3_MOBILE"
+        },
+        {
+          "letra": "C",
+          "texto": "Quero trabalhar com análise de dados, inteligência artificial (IA) ou aprendizado de máquina (ML).",
+          "proximo_passo": "ETAPA_4_DADOS"
+        },
+        {
+          "letra": "D",
+          "texto": "Quero desenvolver jogos ou sistemas que exigem alta performance e controle de hardware.",
+          "proximo_passo": "ETAPA_5_PERFORMANCE"
+        },
+        {
+          "letra": "E",
+          "texto": "Estou apenas começando e quero uma linguagem fácil de aprender e versátil.",
+          "proximo_passo": "ETAPA_6_INICIANTE"
+        }
+      ]
+    },
+    {
+      "id": "ETAPA_2_WEB",
+      "pergunta": "Qual parte do desenvolvimento web te interessa mais?",
+      "opcoes": [
+        {
+          "letra": "A1",
+          "texto": "A parte visual do site (Front-end).",
+          "resultado": {
+            "linguagem": "JavaScript",
+            "detalhe": "Com HTML/CSS e frameworks como React, Vue ou Angular.",
+            "resumo_leigo": "É a 'língua' que faz tudo se mexer nos sites (botões, animações, menus). Se você vê algo interativo na web, é JavaScript.",
+            "logo_url": "https://matfels.github.io/assets/logos/frontend-icon.png",
+            "links": {
+              "JavaScript":  "https://www.alura.com.br/cursos-online-front-end/javascript?srsltid=AfmBOopWHBW-criRnhWTndvJcCBsSAhQxpzOVq6OtEpwG326gvdngDmT"
+            }
+          }
+        },
+        {
+          "letra": "A2",
+          "texto": "A lógica do servidor e banco de dados (Back-end).",
+          "resultado": {
+            "linguagem": "Python / JavaScript / PHP / Ruby",
+            "detalhe": "Python (Django/Flask), JavaScript (Node.js), PHP (Laravel) ou Ruby (Rails).",
+            "resumo_leigo": "Essas linguagens cuidam de toda a 'cozinha' do site: gerenciam contas de usuário, processam formulários e interagem com o banco de dados. Elas fazem a mágica acontecer por trás das cenas.",
+            "logo_url": "https://matfels.github.io/assets/logos/backend-icon.png",
+            "links": {
+              "Python":  "https://www.alura.com.br/carreiras/desenvolvimento-backend-python",
+              "JavaScript": "https://www.alura.com.br/formacao-js-backend?srsltid=AfmBOoqm6BlTE6cVRrpld4f7XvZBbbWsoNDbUXOSgcXb2ZFAZIfwAItT",
+              "PHP": "https://www.alura.com.br/carreiras/desenvolvimento-backend-php",
+              "Ruby": "https://cursos.alura.com.br/formacao-ruby-on-rails"
+            }
+          }
+        },
+        {
+          "letra": "A3",
+          "texto": "Ambas (Full-Stack).",
+          "resultado": {
+            "linguagem": "JavaScript",
+            "detalhe": "Permite usar uma única linguagem (Node.js no Back-end, React/Vue no Front-end) para todo o projeto.",
+            "resumo_leigo": "É a linguagem que faz tudo: a parte visual do site e a lógica do servidor. Ideal para quem quer construir um site do começo ao fim usando apenas uma ferramenta.",
+            "logo_url": "https://matfels.github.io/assets/logos/fullstack.png",
+            "links":{
+              "Node-js": "https://www.alura.com.br/cursos-online-programacao/node-js?srsltid=AfmBOopRBu8CjGpkvMgg8wsKDaL1_CrXi1vVEir7nkgaxhnV56wLDCHf",
+              "React": "https://www.alura.com.br/cursos-online-front-end/reactjs?srsltid=AfmBOoq2I7dE4w4itQEiW_AINMhqmtmc_ViPQThWuOKvWd3BW7HwP-nf",
+              "VueJS": "https://www.alura.com.br/formacao-vuejs3?srsltid=AfmBOoo5ku3pTlh3OVCAa4Vp77SUDtRPPKCLbp5Pohb680pZXGsS8N-h"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ETAPA_3_MOBILE",
+      "pergunta": "Você precisa de um app nativo (melhor performance) ou multiplataforma (código único)?",
+      "opcoes": [
+        {
+          "letra": "B1",
+          "texto": "Quero um aplicativo nativo de alta performance para Android.",
+          "resultado": {
+            "linguagem": "Kotlin",
+            "detalhe": "A linguagem oficial e moderna para o ecossistema Android.",
+            "resumo_leigo": "É a principal ferramenta para construir aplicativos de celular de alta qualidade especificamente para o sistema Android (Samsung, Xiaomi, Motorola, etc.).",
+            "logo_url": "https://matfels.github.io/assets/logos/kotlin.png",
+            "links": {
+              "Kotlin": "https://www.alura.com.br/formacao-kotlin?srsltid=AfmBOoq2tlDqzSIn_DYFOZhU49RbeuMJvckStRrXCUeaQToL9avxcC2_"
+            }
+          }
+        },
+        {
+          "letra": "B2",
+          "texto": "Quero um aplicativo nativo de alta performance para iOS (iPhone/iPad).",
+          "resultado": {
+            "linguagem": "Swift",
+            "detalhe": "A linguagem moderna da Apple para desenvolvimento iOS.",
+            "resumo_leigo": "É a ferramenta principal da Apple para criar aplicativos nativos, rápidos e bonitos para iPhones, iPads e outros dispositivos da marca.",
+            "logo_url": "https://matfels.github.io/assets/logos/swift.png",
+            "links": {
+              "Swift": "https://www.alura.com.br/formacao-domine-linguagem-swift?utm_term=&utm_campaign=&utm_source=google&utm_medium=cpc&campaign_id=23211518344__&utm_id=23211518344__&hsa_acc=7964138385&hsa_cam=&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=google&hsa_ver=3&gad_source=1&gad_campaignid=23211519973&gbraid=0AAAAADpqZIArYyiwmKFb8PlWi6yVCVutm&gclid=CjwKCAiA24XJBhBXEiwAXElO3-OWbh7YP0nHE8AWtix-0GUuJlctG_Wgr016WLv8--E1-s_hhIsZRxoCYFQQAvD_BwE"
+            }
+          }
+        },
+        {
+          "letra": "B3",
+          "texto": "Quero um código único que rode tanto em Android quanto em iOS (Multiplataforma).",
+          "resultado": {
+            "linguagem": "Dart (Flutter) / JavaScript (React Native)",
+            "detalhe": "Flutter (Dart) é uma excelente opção em ascensão para performance próxima do nativo.",
+            "resumo_leigo": "Essas ferramentas permitem escrever o código uma única vez e criar aplicativos que funcionam bem em Android e iOS ao mesmo tempo, economizando tempo e esforço.",
+            "logo_url": "https://matfels.github.io/assets/logos/flutterJsReact.png",
+            "links": {
+              "Dart": "https://www.alura.com.br/curso-online-dart-trabalhando-sintaxe-configuracao-projeto?utm_term=&utm_campaign=&utm_source=google&utm_medium=cpc&campaign_id=23211518344__&utm_id=23211518344__&hsa_acc=7964138385&hsa_cam=&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=google&hsa_ver=3&gad_source=1&gad_campaignid=23211519973&gbraid=0AAAAADpqZIArYyiwmKFb8PlWi6yVCVutm&gclid=CjwKCAiA24XJBhBXEiwAXElO32HhvNHyxTE4OCvHIgnDHAdGwzM5HSR8-psKo5nr8zsqopyrKY0erxoC4LgQAvD_BwE",
+              "JavaScript-React-Native": "https://cursos.alura.com.br/formacao-react-native-v419498"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ETAPA_4_DADOS",
+      "pergunta": "Qual é o seu foco na área de dados?",
+      "opcoes": [
+        {
+          "letra": "C1",
+          "texto": "Análise de dados, Machine Learning e IA.",
+          "resultado": {
+            "linguagem": "Python",
+            "detalhe": "Padrão da indústria com bibliotecas poderosas (Pandas, TensorFlow, etc.).",
+            "resumo_leigo": "É a 'rainha' dos dados. Ela organiza informações complexas, encontra padrões, cria relatórios e é a principal ferramenta para fazer a Inteligência Artificial funcionar.",
+            "logo_url": "https://matfels.github.io/assets/logos/python.png",
+            "links": {
+              "Python": "https://www.alura.com.br/cursos-online-programacao/python?srsltid=AfmBOopB4CsYQ0GFfP9BtOdQtBdXJKG4kWDfZ4DSjVx3DMERONcvDib6"
+            }
+          }
+        },
+        {
+          "letra": "C2",
+          "texto": "Estatística, pesquisa acadêmica ou visualização complexa.",
+          "resultado": {
+            "linguagem": "R / Python",
+            "detalhe": "R é muito forte em estatística. Python é mais versátil.",
+            "resumo_leigo": "São as melhores ferramentas para quem precisa fazer cálculos avançados, testes estatísticos e apresentar gráficos complexos para estudos ou pesquisa.",
+            "logo_url": "https://matfels.github.io/assets/logos/rEPython.png",
+            "links": {
+              "R": "https://www.alura.com.br/formacao-estatistica-r?srsltid=AfmBOop8iGsLqO9lxNHBv8yO_b4jKrzkkPIqxb4L4iStNPF9DuFWjuFf",
+              "Python": "https://www.alura.com.br/cursos-online-programacao/python?srsltid=AfmBOopB4CsYQ0GFfP9BtOdQtBdXJKG4kWDfZ4DSjVx3DMERONcvDib6"
+            }
+            
+          }
+        }
+      ]
+    },
+    {
+      "id": "ETAPA_5_PERFORMANCE",
+      "pergunta": "Seu projeto exige controle de memória e extrema velocidade?",
+      "opcoes": [
+        {
+          "letra": "D1",
+          "texto": "Sim, para jogos AAA, sistemas operacionais ou drivers de hardware.",
+          "resultado": {
+            "linguagem": "C++",
+            "detalhe": "Oferece controle de memória e performance inigualáveis.",
+            "resumo_leigo": "É a linguagem mais rápida e poderosa. Usada para criar a base de sistemas (como o Windows), motores de jogos complexos e tudo que exige o máximo de desempenho do computador.",
+            "logo_url": "https://matfels.github.io/assets/logos/cpp.png",
+            "links": {
+              "C++": "https://www.alura.com.br/formacao-linguagem-c-plus-plus?srsltid=AfmBOopE_ukKc6J__ub0Z2-MhSM5Au3DihXPWV23GbYF7LZRUs9TTwZu"
+            }
+          }
+        },
+        {
+          "letra": "D2",
+          "texto": "Não, preciso de segurança e bom desempenho para sistemas de alta concorrência (Back-end/Microsserviços).",
+          "resultado": {
+            "linguagem": "Go (Golang) / Rust",
+            "detalhe": "Rust foca em segurança; Go é excelente para serviços de rede rápidos.",
+            "resumo_leigo": "São linguagens modernas criadas para serem muito rápidas e seguras. Ótimas para sistemas que precisam lidar com milhões de acessos ao mesmo tempo (como o Twitter ou Netflix).",
+            "logo_url": "https://matfels.github.io/assets/logos/go-rust.png",
+            "links": {
+              "Go-Golang": "https://www.alura.com.br/formacao-go?srsltid=AfmBOopGSik7eYcP0qSnmCmTok17PWqf-hTup6ggm7a-zWMjnkztzRMZ",
+              "Rust": "https://www.alura.com.br/formacao-rust?srsltid=AfmBOoqAoEa7c9WUUik9Ca5SBZmvaHS-5RYlgx8NXVCZs4hQlRHOQTjE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ETAPA_6_INICIANTE",
+      "pergunta": "O que você valoriza mais para começar?",
+      "opcoes": [
+        {
+          "letra": "E1",
+          "texto": "Facilidade de leitura, sintaxe simples e alta versatilidade no mercado.",
+          "resultado": {
+            "linguagem": "Python",
+            "detalhe": "Sintaxe limpa, ideal para primeiros passos e com uso em diversas áreas (Web, Dados, Automação).",
+            "resumo_leigo": "É a linguagem ideal para começar, pois é a mais fácil de ler, quase como se você estivesse escrevendo em inglês. Pode ser usada em quase tudo!",
+            "logo_url": "https://matfels.github.io/assets/logos/python.png",
+            "links": {
+              "Python": "https://www.alura.com.br/cursos-online-programacao/python?srsltid=AfmBOopB4CsYQ0GFfP9BtOdQtBdXJKG4kWDfZ4DSjVx3DMERONcvDib6"
+            }
+          }
+        },
+        {
+          "letra": "E2",
+          "texto": "Aprender algo imediatamente útil para o navegador e o mundo web.",
+          "resultado": {
+            "linguagem": "JavaScript",
+            "detalhe": "Essencial para o front-end e pode ser usada em todo o desenvolvimento (Full-Stack) com Node.js.",
+            "resumo_leigo": "Se o seu objetivo é criar sites, ela é obrigatória. É a única que faz as coisas se moverem dentro do seu navegador, sendo um passo essencial para quem quer trabalhar com a internet.",
+            "logo_url": "https://matfels.github.io/assets/logos/javascriptNode.png",
+            "links": {
+              "JavaScript-NodeJS": "https://www.alura.com.br/cursos-online-front-end/javascript?srsltid=AfmBOormwWdPxkn-wKNeT3SXaDZ-5mnSN3arZc6sW6AdbvtFgKWbgXVQ"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+/* Importa a fonte 'Poppins' do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset básico para melhor consistência */
+body {
+    /* Usa a nova fonte e define fontes de fallback */
+    font-family: "Fira Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Adiciona um gradiente de fundo mais dinâmico */
+    background: linear-gradient(135deg, #1f1c2c, #3a3456);
+    background: linear-gradient(135deg, #231e39, #5d4d7a);
+    background-attachment: fixed; /* Mantém o gradiente fixo durante o scroll */
+    color: #e0e0e0; /* Cor de texto base mais suave */
+    text-align: center; 
+}
+
+/* Estilo para o cabeçalho e título */
+header {
+    /* Fundo semi-transparente para um leve efeito de profundidade */
+    background-color: rgba(25, 23, 36, 0.5);
+    background-color: rgba(25, 23, 36, 0.6);
+    color: white;
+    padding: 20px 0;
+    /* Sombra mais sutil e moderna */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Borda inferior sutil */
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600; /* Deixa o título um pouco mais forte */
+}
+
+/* Estilo para o conteúdo principal */
+.container {
+    max-width: 800px; /* Define uma largura máxima para melhor legibilidade em telas grandes */
+    margin: 40px auto;
+    padding: 30px;
+    /* Efeito de "vidro": fundo semi-transparente com desfoque */
+    /* Efeito de "vidro": fundo semi-transparente com desfoque (glassmorphism) */
+    background-color: rgba(46, 42, 68, 0.6);
+    backdrop-filter: blur(10px); /* Desfoque do fundo */
+    border-radius: 16px; /* Bordas mais arredondadas */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Estilo para a área dos botões */
+.botoes-container {
+    display: flex;
+    flex-direction: column; /* Empilha os botões verticalmente */
+    align-items: center; /* Centraliza os botões no container */
+    gap: 15px; /* Espaço entre os botões */
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Estilo individual para os botões */
+.opcao-btn {
+    width: 100%; /* Ocupa toda a largura do container de botões */
+    max-width: 600px; /* Limita a largura máxima dos botões */
+    padding: 18px; 
+    font-size: 18px; /* Tamanho de fonte mais equilibrado */
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px; /* Bordas mais arredondadas */
+    /* Gradiente sutil para os botões */
+    background: linear-gradient(145deg, #4a4e69, #3a3f58);
+    background: linear-gradient(145deg, #5c527f, #413a5a);
+    color: white;
+    transition: all 0.3s ease; /* Transição suave para todas as propriedades */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.opcao-btn:hover {
+    /* Ilumina o botão e a borda ao passar o mouse */
+    background: linear-gradient(145deg, #5e6383, #494e6d);
+    /* Ilumina o botão e a borda ao passar o mouse, usando a cor de destaque */
+    background: linear-gradient(145deg, #9370DB, #7b5ab3);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-3px) scale(1.01); /* Efeito de elevação sutil */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Estilo para a mensagem de resultado */
+#mensagem-resultado {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid rgba(147, 112, 219, 0.5); /* Borda com cor de destaque */
+    border-radius: 12px;
+    /* Gradiente com cor de destaque para o resultado */
+    background: linear-gradient(135deg, rgba(88, 78, 114, 0.7), rgba(120, 90, 170, 0.7));
+    background: linear-gradient(135deg, rgba(147, 112, 219, 0.2), rgba(147, 112, 219, 0.4));
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para o texto de detalhe dentro do resultado */
+#mensagem-resultado .detalhe {
+    display: block; /* Faz o detalhe ficar em uma nova linha */
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #d1d1d1; /* Cor mais suave para o detalhe */
+}
+
+
+#mensagem-linguagem {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid rgba(147, 112, 219, 0.5); /* Borda com cor de destaque */
+    border-radius: 12px;
+    /* Gradiente com cor de destaque para o resultado */
+    background: linear-gradient(135deg, rgba(88, 78, 114, 0.7), rgba(120, 90, 170, 0.7));
+    background: linear-gradient(135deg, rgba(147, 112, 219, 0.2), rgba(147, 112, 219, 0.4));
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
