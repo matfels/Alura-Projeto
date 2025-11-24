@@ -53,3 +53,8 @@ Você só precisa de um navegador web (Chrome, Firefox, Edge, etc.) para visuali
 ```bash
 git clone [https://github.com/matfels/projeto-para-alura](https://github.com/matfels/projeto-para-alura)
 cd projeto-para-alura/Projeto-Para-Alura-8c931f711e722ae0ee4c985d7822618d9ee9f8ea
+```
+### 2. Link do projeto
+```bash
+https://matfels.github.io/Alura-Projeto/
+```
